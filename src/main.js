@@ -21,5 +21,4 @@ document.addEventListener('DOMContentLoaded', function () {
 myObj.queue.push(function() {
   loadHTML('header', '/partials/header.html');
   loadHTML('footer', '/partials/footer.html');
-  document.querySelector('#about').innerHTML = 'Welcome to the About Page!';
 });
